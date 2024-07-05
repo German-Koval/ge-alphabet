@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+ 
 import "./guess.css"
 import LetterCard from '../letter-card';
 

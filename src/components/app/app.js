@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+ 
 import Table from '../table';
 import "./app.css"
 import Guess from '../guess';

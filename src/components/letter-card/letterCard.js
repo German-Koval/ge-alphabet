@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+ 
 import "./letterCard.css"
 import SoundIcon from "./sound.svg"
 
@@ -29,14 +29,14 @@ render() {
     const {rusSym,rusComm,pronun,geoName,engSym,} = letter
     let cardStyle = (this.state.active && !isRight) ? "letter-card  letter-card-active"  : "letter-card"
     if (toBeGone) {
-        cardStyle = (cardStyle == "letter-card  letter-card-active") ? "letter-card letter-card-active letter-toBeGone"  : "letter-card letter-toBeGone"  
+        cardStyle = (cardStyle === "letter-card  letter-card-active") ? "letter-card letter-card-active letter-toBeGone"  : "letter-card letter-toBeGone"  
     }
 
         return (
             <div  onClick={this.setActive} className={cardStyle} style={{order: order }}>
                 <div className='rus-sym-container'>
                     <div className='rus-sym'>{rusSym}</div>
-                    <img src={SoundIcon} className='sound-icon'  onClick={(event) => this.pronunSound(event)}></img>
+                    <img src={SoundIcon} alt='' className='sound-icon'  onClick={(event) => this.pronunSound(event)}></img>
                 </div>
                 <div className='pronunciaton-container'>
                     <div className='pronunciaton-comment'>{rusComm}</div>

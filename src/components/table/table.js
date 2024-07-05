@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from 'react-dom/client';
+ 
 import './table.css'
 
 export default class Table extends React.Component {
