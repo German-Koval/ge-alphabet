@@ -6,7 +6,7 @@ import SoundIcon from "./sound.svg"
 
 
 
-
+const PUBLIC_URL = process.env.PUBLIC_URL
 
 
 export default class LetterCard extends React.Component {
@@ -20,7 +20,7 @@ export default class LetterCard extends React.Component {
     pronunSound = (event) => {
         event.stopPropagation()
         const {letter} =  this.props
-        const sound = new Audio(`/audio/${letter.soundSrcId}_.mp3`)
+        const sound = new Audio(`${PUBLIC_URL}/audio/${letter.soundSrcId}_.mp3`)
         sound.autoplay = false
         sound.play()
     }
