@@ -1,0 +1,41 @@
+.app {
+    
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   flex-direction: column;
+}
+.tablemodButton {
+   
+    padding: 5px;
+    background-color: goldenrod;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    border-radius: 5px;
+    font-size: 40px;
+    cursor: pointer;
+}
+.tablemodButton:hover {
+    background-color: rgb(150, 116, 31);
+}
+
+.instructionMod {
+    padding: 5px;
+    background-color: goldenrod;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    border-radius: 5px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.instructionMod:hover {
+    background-color: rgb(150, 116, 31);
+}
+ a {
+    color: blueviolet;
+ }

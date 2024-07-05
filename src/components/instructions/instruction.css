@@ -1,0 +1,17 @@
+.instruction {
+    color: goldenrod;
+    width: 80vw;
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+     
+    
+}
+
+
+@media (max-width: 1200px) {
+    .instruction {
+        margin-top: 130px;
+        padding-bottom: 50px;
+    }
+}

@@ -1,0 +1,25 @@
+.row {
+    display: flex;
+    color: goldenrod;
+    width: 500px;
+    justify-content: space-between;
+    font-size: 40px;
+}
+.table {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+@media (max-width: 1200px) {
+    .row {
+ 
+        width: 300px;
+        
+        font-size: 30px;
+    }
+    .table {
+        margin-top: 130px;
+    }
+}
+.line-element {
+ width: 15%;
+}
