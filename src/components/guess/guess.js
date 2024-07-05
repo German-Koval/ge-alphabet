@@ -48,7 +48,7 @@ export default class Guess extends React.Component {
             { geoSym: 'ჯ', geoName: 'jani', engSym: 'j', pronun: '/d͡ʒ/', rusSym: 'дж', rusComm: null,soundSrcId: "32" },
             { geoSym: 'ჰ', geoName: 'hae', engSym: 'h', pronun: '/h/', rusSym: 'х', rusComm: 'легкое' ,soundSrcId: "33"},],
         idData: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32],
-        pointsTotal: 0,
+      
         isPointsCredited: false,
         pointStreak: 0,
         answerStatus: null,
